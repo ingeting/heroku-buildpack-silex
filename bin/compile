@@ -34,7 +34,7 @@ APACHE_URL="http://dl.dropbox.com/u/62064441/apache.tar.gz"
 echo "-----> Bundling Apache version $APACHE_VERSION"
 curl --silent --max-time 60 --location "$APACHE_URL" | tar xz
 
-PHP_URL="https://dl.dropbox.com/s/59uzprtay9x3n1t/php.usr.lib.tar.gz"
+PHP_URL="http://dl.dropbox.com/s/vpxb2x7sniltkp3/php.tar.gz"
 echo "-----> Bundling PHP version $PHP_VERSION"
 curl --silent --max-time 60 --location "$PHP_URL" | tar xz
 
